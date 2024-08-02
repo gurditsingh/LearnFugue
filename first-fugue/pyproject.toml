@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "first-fugue"
+version = "0.1.0"
+description = ""
+authors = ["gurditsingh <gurdit.singh.041@gmail.com>"]
+readme = "README.md"
+packages = [{include = "first_fugue", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fugue = "^0.9.1"
+packaging = "^24.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
